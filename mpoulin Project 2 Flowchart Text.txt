@@ -1,0 +1,45 @@
+Airgead Banking App Program Flowchart text
+
+- Screen display with header " Data Input "
+
+- Display initial information for the following:
+	- Initial Investment Amount
+	- Monthly Deposit
+	- Annual Interest
+	- Number of Years
+
+- Prompt User input for  the following
+	- Initial Investment Amount
+	- Monthly Deposit
+	- Annual Interest
+	- Number of Years
+
+- Display updated information from user input
+
+- Prompt for data input calculations " Press any key to continue..."
+
+- Calculations of data to obtain results for
+	- Number of months based on number of years for interest calculation
+	- Opening amount
+	- Deposited amount
+	- Total Balance
+	- Total Earned Interest
+
+- Display two static reports showing:
+	--Report 1
+	- Header Balance and Interest Without Additional Monthly Deposits
+	- Header Year | Year End Balance | Year End Earned Interest
+	- Year (1-5)
+	- Year End Balance with no monthly deposit value
+	- Year End Interest with no monthly deposit value
+	
+	--Report 2
+	- Header Balance and Interest With Additional Monthly Deposits
+	- Header Year | Year End Balance | Year End Earned Interest
+	- Year (1-5)
+	- Year End Balance based on user input monthly deposit value
+	- Year End Interest based on user input monthly deposit value
+
+- Prompt to user to recalculate with different input values
+	- Yes = Return to user input to obtain new values
+	- No = Display exiting program message
